@@ -35,4 +35,10 @@
 	pkgs.tlrc
 	pkgs.parallel
 
+	# Timeshift system restore utilitiy.
+	pkgs.timeshift
+
+	# Clonezilla…still does not exist in nixpkgs. Huh.
+#	pkgs.clonezilla
+
 ]; }
