@@ -1,3 +1,5 @@
+![image](https://github.com/Atemo-C/NixOS-XFCE-Live-ISO/blob/main/Desktop.webp)
+
 # [1] General information.
 These are a collection of Nix modules that allows one to create a live ISO of a NixOS unstable system with the XFCE desktop environment. \
 It contains certain tools that I use, excludes some that I do not, and is even themed appropriately (with a black-and-blue theme for the live user, and a black-and-red theme for the root user). \
