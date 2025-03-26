@@ -1,4 +1,4 @@
-# [1] General information
+# [1] General information.
 These are a collection of Nix modules that allows one to create a live ISO of a NixOS unstable system with the XFCE desktop environment. \
 It contains certain tools that I use, excludes some that I do not, and is even themed appropriately (with a black-and-blue theme for the live user, and a black-and-red theme for the root user). \
 The way it is structured is somewhat similar, though not identical, to my main [NixOS configuration](https://github.com/Atemo-C/NixOS-configuration).
@@ -40,3 +40,8 @@ Once you have moved/copied the ISO and wish to get rid of the built image and it
 ```
 sudo nix-store --delete --ignore-liveness /nix/store…-nixos-XX.XXbeta…-x86_64-linux.iso
 ```
+
+# [4] Additional notes.
+- Calamares is currently not provided, as I, for now, cannot figure out how to include NixOS's own settings to it.
+- Even if it were, I have no prior experience working with Calamares, and thus do not know how to make this live session installable.
+- This is purely a live environment, useful for very basic rescue operations, program usage on the go, as well as installing NixOS *manually* on other devices. Of course, you may feel free to change it to fit your own needs.
