@@ -61,8 +61,8 @@
 	# Disable the nano text editor, since micro is being used.
 	programs.nano.enable = false;
 
-	# Use a more recent (but not latest) version of the Linux Kernel to support more hardware OOTB.
-	boot.kernelPackages = pkgs.linuxPackages_zen;
+	# Use a more recent version of the Linux Kernel to support more hardware OOTB.
+#	boot.kernelPackages = pkgs.linuxPackages_latest;
 
 	# Allow installation of unfree software.
 	nixpkgs.config.allowUnfree = true;
