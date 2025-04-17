@@ -36,7 +36,7 @@ sudo nix-build '<nixpkgs/nixos>' -A config.system.build.isoImage -I nixos-config
 
 ## [3.2] Cleaning up remains.
 Once you have moved/copied the ISO and wish to get rid of the built image and its dependencies, you must:
-1. Find the full path of the symlink (e.g. ``/nix/store/…-nixos-XX.XXbeta…-x86_64-linux.iso`).
+1. Find the full path of the symlink (e.g. `/nix/store/…-nixos-XX.XXbeta…-x86_64-linux.iso`).
 2. Open a terminal emulator.
 3. Execute the following command:
 ```
