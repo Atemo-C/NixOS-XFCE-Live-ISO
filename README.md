@@ -10,13 +10,10 @@ The way it is structured is somewhat similar, though not identical, to my main [
 ## [2.1] NixOS unstable (unstable nixpkgs).
 This has only been tested on NixOS unstable system. Support for NixOS stable has not been tested, and nothing is guaranteed to work for them.
 
-## [2.2] NVIDIA.
-If you have an NVIDIA GPU from the 16XX series and above, uncomment the `./nvidia` import in `configuration.nix`, and you should also feel free to comment out the `./gputools` import in `configuration.nix`.
-
-## [2.3] Virtual machines.
+## [2.2] Virtual machines.
 Support for QEMU/KVM guests is enabled by default in the `graphical-base.nix` module. It can be disabled, and guest additions for other hypervisors can be enabled. Note that XFCE does not seem to support automatic resizing out of the box, but the proper screen resolutions should still be available in XFCE's Display settings.
 
-## [2.4] Verification of the Nix modules.
+## [2.3] Verification of the Nix modules.
 You might wish to check every Nix module present here, and modify them to fit your own needs.
 
 # [3] Building the ISO.
