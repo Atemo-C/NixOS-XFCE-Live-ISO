@@ -45,4 +45,7 @@
 	# Temporary module to apply fixes.
 	./temporary.nix
 
+	# Calamares installer.
+#	./calamares.nix
+
 ]; }
