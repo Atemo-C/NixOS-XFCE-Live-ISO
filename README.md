@@ -1,3 +1,10 @@
+# Important notice [14/08/2025]
+This is currently not actively maintained. However, I plan to come back to this with a cleaner and better XFCE live ISO environment.
+If that ends up not happening for some reason, this repository will simply be archived.
+
+---
+
+
 ![image](https://github.com/Atemo-C/NixOS-XFCE-Live-ISO/blob/main/Desktop.webp)
 
 # [1] General information.
